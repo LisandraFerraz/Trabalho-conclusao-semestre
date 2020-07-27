@@ -83,8 +83,8 @@
       </div>
 
 <Center>
-    <div class="col-md-6  ">
-        <div id="tabresp">      
+    <div class="col-sm-12 col-md-10 col-lg-8">
+    <div id="tabresp">      
         <table class="table table-borderless">
                 <tr>
                   <td>  <a tabindex="0" class="btn btn-lg " role="button" data-toggle="popover" data-trigger="focus" title="Reclamações?" data-content="Nos mande via DM no Twitter."> <i class=" material-icons"  id="iconess" alt="Reclamações">announcement</i></a> </td>
@@ -283,16 +283,22 @@
   
   </footer>
   <!-- Footer -->
-  <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-      </div>
-    </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+  crossorigin="anonymous"></script>
+
+  <script>
+   $ (function() {
+     $('[data-toggle="popover"]').popover()
+   })
+
+   </script>
                   
 </body>
 </html>
